@@ -761,7 +761,8 @@ a {
 
 .normal-list-wrap {
   display: flex;
-  gap: 50px;
+  gap: 100px;
+  padding: 30px;
 }
 
 /* css for modals */
