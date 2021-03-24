@@ -1,0 +1,1005 @@
+/* css for avatars */
+
+.avatar-small {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.avatar-medium {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.avatar-large {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.avatar-xlarge {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* css for alerts  */
+
+.alert-red {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.alert-darkred {
+  padding: 20px;
+  background-color: darkred;
+  color: wheat;
+  margin-bottom: 15px;
+}
+
+/* #ffd0d0 */
+
+.alert-light {
+  padding: 20px;
+  background-color: lightcoral;
+  color: darkred;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* css for badges  */
+
+.red-badge-circle {
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.red-badge {
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.blue-badge-circle {
+  background-color: skyblue;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.blue-badge {
+  background-color: skyblue;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.green-badge-circle {
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.green-badge {
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.violet-badge-circle {
+  background-color: violet;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.violet-badge {
+  background-color: violet;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.badge-on-avatars {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
+
+.badge-avatar {
+  position: relative;
+  display: flex;
+  margin-right: 12px;
+}
+
+.border {
+  stroke-width: 10;
+  stroke: rgba(255, 255, 255, 0.4);
+  fill: none;
+}
+
+.badge {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  width: 22px;
+  height: 22px;
+  background: #5ad539;
+  border-radius: 50%;
+}
+
+.badge-on-icon {
+  color: white;
+  display: inline-block;
+  position: relative;
+  font-size: x-large;
+  padding: 2px 5px;
+}
+
+.icon-badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding: 1px 3px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* css for buttons */
+
+.btn-green-pill {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-green-pill:hover {
+  background-color: darkgreen;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-red-pill {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-red-pill:hover {
+  background-color: #be0000;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-blue-pill {
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-blue-pill:hover {
+  background-color: #0000ff;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-yellow-pill {
+  background-color: #ffe200;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.btn-yellow-pill:hover {
+  background-color: #938200;
+  color: white;
+}
+
+.btn-orange-pill {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-orange-pill:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-gray-pill {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-gray-pill:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+
+/* css for cards */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #6cb4ee, #6cb4ee);
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: #6cb4ee;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+/* ecommerce card */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+/* * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.product-card {
+  width: 380px;
+  position: relative;
+  /* box-shadow: 0 2px 7px #dfdfdf; */
+  /* border: 10px solid black; */
+  margin: 50px auto;
+  background: whitesmoke;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.product-badge {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  /* padding: 50px; */
+  background: white;
+}
+
+.product-tumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-details {
+  padding: 30px;
+}
+
+.product-catagory {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 18px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #6cb4ee;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #4cbb17;
+  font-weight: 600;
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+}
+
+.product-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links button {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.product-links a:hover {
+  color: #6cb4ee;
+}
+
+.product-links button:hover {
+  color: #6cb4ee;
+}
+
+.unhilighted-color {
+  color: #999;
+}
+
+/* .product-whishlist-heart {
+  color: red;
+} */
+
+.product-links .product-whishlist-heart:hover {
+  color: red;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* css for grids */
+
+.g1-color {
+  color: whitesmoke;
+  background-color: red;
+  /* width: 200px;
+  /* height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.g2-color {
+  color: whitesmoke;
+  background-color: green;
+  /* width: 200px;
+  height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.g3-color {
+  color: whitesmoke;
+  background-color: blue;
+  /* width: 200px;
+  height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.wrapper3 {
+  display: grid;
+  /* grid-column: 1fr, 1fr, 1fr; */
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 200px;
+  /* grid-template-rows: 100px 200px 100px; */
+  /* justify-content: center; */
+}
+
+.wrapper2 {
+  display: grid;
+  /* grid-column: 1fr, 1fr, 1fr; */
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  /* grid-template-rows: 100px 200px 100px; */
+  /* justify-content: center; */
+}
+
+.g1-color2 {
+  color: whitesmoke;
+  background-color: red;
+  /* width: 200px;
+  height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.g2-color2 {
+  color: whitesmoke;
+  background-color: blue;
+  /* width: 200px;
+  height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+/* css for Images */
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
+
+.round-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+/* css for input */
+
+.basic-input-box {
+  border: 1px solid black;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  font-size: xx-large;
+  border-radius: 10px;
+  color: inherit;
+}
+
+.basic-input-label {
+  font-size: xx-large;
+}
+
+.error-input-label {
+  font-size: xx-large;
+}
+
+.error-input-box {
+  border: 1px solid red;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  font-size: xx-large;
+  border-radius: 10px;
+  color: inherit;
+}
+
+/* css for lists */
+
+.stacked-list-container {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: center;  */
+  /* width: 100; */
+  margin-right: 30px;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+.list-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 350px; */
+  background-color: #6cb4ee;
+  height: 200px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.stacked-list-container > li {
+  border-bottom: 1px solid gray;
+}
+
+.stacked-list-container li:last-child {
+  border-bottom: none;
+}
+
+.person-image {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+
+.person-name {
+  color: whitesmoke;
+}
+
+.person-mail {
+  color: whitesmoke;
+}
+
+.lists-stacked {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.square-bullet {
+  list-style-type: square;
+}
+
+.lower-alpha-bullet {
+  list-style-type: lower-alpha;
+}
+
+.upper-roman-bullet {
+  list-style-type: upper-roman;
+}
+
+.normal-list-wrap {
+  display: flex;
+  gap: 50px;
+}
+
+/* css for modals */
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #0a9de0;
+  color: white;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #0a9de0;
+  color: white;
+  text-align: center;
+}
+
+/* css for nabars */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10% auto; */
+  width: 100%;
+  padding: 20px;
+  background-color: #6cb4ee;
+}
+
+nav h1 {
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  /* color: rgba(255, 255, 255, 0.5); */
+  font-size: x-large;
+  color: black;
+  position: relative;
+  display: inline-block;
+}
+
+a:hover {
+  color: whitesmoke;
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 700px) {
+  nav {
+    display: block;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+/* css for ratings */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.rate > input:checked ~ label {
+  color: #ffc700;
+}
+
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
+/* ratings Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+/* css for toast */
+
+#toast {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  text-align: center;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  visibility: hidden;
+  opacity: 0;
+}
+
+#toast.show {
+  visibility: visible;
+  animation: fadeInOut 3s;
+}
+
+@keyframes fadeInOut {
+  5%,
+  95% {
+    opacity: 1;
+    top: 50px;
+  }
+  15%,
+  85% {
+    opacity: 1;
+    top: 30px;
+  }
+}

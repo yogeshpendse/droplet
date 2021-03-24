@@ -1,0 +1,120 @@
+.red-badge-circle {
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+.red-badge {
+  background-color: red;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.blue-badge-circle {
+  background-color: skyblue;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+.blue-badge {
+  background-color: skyblue;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.green-badge-circle {
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+.green-badge {
+  background-color: darkgreen;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.violet-badge-circle {
+  background-color: violet;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 50%;
+}
+.violet-badge {
+  background-color: violet;
+  color: white;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.badge-on-avatars {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
+.badge-avatar {
+  position: relative;
+  display: flex;
+  margin-right: 12px;
+}
+.border {
+  stroke-width: 10;
+  stroke: rgba(255, 255, 255, 0.4);
+  fill: none;
+}
+.badge {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  width: 22px;
+  height: 22px;
+  background: #5ad539;
+  border-radius: 50%;
+}
+
+.badge-on-icon {
+  color: white;
+  display: inline-block;
+  position: relative;
+  font-size: x-large;
+  padding: 2px 5px;
+}
+
+.icon-badge {
+  background-color: #fa3e3e;
+  border-radius: 2px;
+  color: white;
+  padding: 1px 3px;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
