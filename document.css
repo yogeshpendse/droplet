@@ -126,6 +126,7 @@ a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   position: absolute;
+  width: 100%;
   left: 0;
   top: 0;
   gap: 15px;
@@ -188,16 +189,11 @@ a:hover {
     grid-template-columns: auto;
     height: 100vh;
   }
-}
-
-@media only screen and (max-width: 1000px) {
-  .doc-sidebar {
-    display: none;
-  }
-
-  .doc-wrapper {
-    display: grid;
-    grid-template-columns: auto;
-    height: 100vh;
+  .doc-flex {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.0625rem;
+    width: 100vw;
+    /* align-items: center; */
   }
 }
