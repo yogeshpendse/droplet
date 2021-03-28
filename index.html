@@ -48,6 +48,8 @@
                <li><a href="#">6 dgfg</a></li>
                </ul> -->
             <!-- sidebar-content sidebar-link-wrapper -->
+            <div class="sidebar-parent">
+         
             <div class=" sidebar-link-wrapper">
                <a href="#avatar">Avatar</a>
                <a href="#alert">Alert</a>
@@ -70,6 +72,7 @@
                <a href="#textutilities">Text Utilities</a>
                <!-- Toast/Notify/Snackbar  -->
                <a href="#snackbar">Toast</a>
+            </div>
             </div>
          </div>
       </div>
@@ -118,21 +121,21 @@
                </div>
                <br>
                <div class="code-class">
-                  <pre><code class="language-markup">&lt;img
+                  <pre><code class="language-markup"> &lt;img
 class="avatar-small"
-src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+src="source"
 alt=""/>
 &lt;img
 class="avatar-medium"
-src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+src="source"
 alt=""/>
 &lt;img
 class="avatar-large"
-src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+src="source"
 alt=""/>
 &lt;img
 class="avatar-xlarge"
-src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+src="source"
 alt=""/></code></pre>
                </div>
                <br>
@@ -141,45 +144,38 @@ alt=""/></code></pre>
                <hr>
                <br>
                <div class="alert-red">
-                  This is an alert box.
-                  <span class="closebtn">&times;</span>
-               </div>
-               <div class="alert-darkred">
-                  This is an alert box.
-                  <span class="closebtn">&times;</span>
-               </div>
-               <div class="alert-light">
-                  This is an alert box.
+                  Your text here
                   <span class="closebtn">&times;</span>
                </div>
                <br>
                <div class="code-class">
                   <pre><code class="language-markup">&lt;div class="alert-red">
-This is an alert box.&lt;span class="closebtn">&times;&lt;/span>
+Your text here&lt;span class="closebtn">&times;&lt;/span>
 &lt;/div> 
-&lt;div class="alert-darkred">
-This is an alert box.&lt;span class="closebtn">&times;&lt;/span>
-&lt;/div>
-&lt;div class="alert-light">
-This is an alert box.
-&lt;span class="closebtn">&times;&lt;/span>
-&lt;/div></code></pre>
+</code></pre>
                </div>
                <br>
                <!-- badges -->
                <h4 id="badge" class="doc-text">Badge</h4>
                <hr>
-               <br>
-               <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+            <div style="display: flex; flex-wrap: wrap; gap: 30px;">
                   <p>Updates <span class="red-badge-circle">6</span></p>
                   <p>Likes <span class="red-badge">new</span></p>
                   <p>Updates <span class="blue-badge-circle">5</span></p>
                   <p>Likes <span class="blue-badge">new</span></p>
-                  <p>Updates <span class="green-badge-circle">4</span></p>
-                  <p>Likes <span class="green-badge">new</span></p>
-                  <p>Updates <span class="violet-badge-circle">3</span></p>
-                  <p>Likes <span class="violet-badge">new</span></p>
-                  <div class="badge-on-avatars">
+               </div>
+               <br>
+               <div>
+                  <div class="code-class">
+                     <pre><code class="language-markup">
+&lt;p>Updates &lt;span class="red-badge-circle">6&lt;/span>&lt;/p>
+&lt;p>Likes &lt;span class="red-badge">new&lt;/span>&lt;/p>
+&lt;p>Updates &lt;span class="blue-badge-circle">5&lt;/span>&lt;/p>
+&lt;p>Likes &lt;span class="blue-badge">new&lt;/span>&lt;/p>
+</code></pre>
+                  </div>
+                  <div>
+                     <div class="badge-on-avatars">
                      <div class="badge-avatar">
                         <svg role="none" style="height: 120px; width: 120px">
                            <mask id="circle">
@@ -202,31 +198,10 @@ This is an alert box.
                         <div class="badge"></div>
                      </div>
                   </div>
-                  <div>
-                     <div class="badge-on-icon">
-                        <i style="color: black; font-size: xx-large" ; class="fa fa-globe"></i>
-                        <span class="icon-badge">2</span>
-                     </div>
-                     <div class="badge-on-icon">
-                        <span style="color: black; font-size: xx-large" ;>
-                        <i class="fas fa-calendar-week"></i>
-                        </span>
-                        <span class="icon-badge">4</span>
-                     </div>
                   </div>
-               </div>
-               <br>
-               <div>
-                  <div class="code-class">
-                     <pre><code class="language-markup">
-&lt;p>Updates &lt;span class="red-badge-circle">6&lt;/span>&lt;/p>
-&lt;p>Likes &lt;span class="red-badge">new&lt;/span>&lt;/p>
-&lt;p>Updates &lt;span class="blue-badge-circle">5&lt;/span>&lt;/p>
-&lt;p>Likes &lt;span class="blue-badge">new&lt;/span>&lt;/p>
-&lt;p>Updates &lt;span class="green-badge-circle">4&lt;/span>&lt;/p>
-&lt;p>Likes &lt;span class="green-badge">new&lt;/span>&lt;/p>
-&lt;p>Updates &lt;span class="violet-badge-circle">3&lt;/span>&lt;/p>
-&lt;p>Likes &lt;span class="violet-badge">new&lt;/span>&lt;/p>
+
+<div class="code-class">
+<pre><code class="language-markup">
 &lt;div class="badge-on-avatars">
 &lt;div class="badge-avatar">
 &lt;svg role="none" style="height: 120px; width: 120px">
@@ -241,7 +216,7 @@ y="0"
 height="100%"
 preserveAspectRatio="xMidYMid slice"
 width="100%"
-xlink:href="https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg"
+xlink:href="https://example.com/sfiuj"
 style="height: 120px; width: 120px"
 >&lt;/image>
 &lt;circle class="border" cx="60" cy="60" r="60">&lt;/circle>
@@ -249,8 +224,24 @@ style="height: 120px; width: 120px"
 &lt;/svg>
 &lt;div class="badge">&lt;/div>
 &lt;/div>
-&lt;/div>
-&lt;div>
+&lt;/div></code></pre>
+                  </div>
+                  <div>
+                                       <div>
+                     <div class="badge-on-icon">
+                        <i style="color: black; font-size: xx-large" ; class="fa fa-globe"></i>
+                        <span class="icon-badge">2</span>
+                     </div>
+                     <div class="badge-on-icon">
+                        <span style="color: black; font-size: xx-large" ;>
+                        <i class="fas fa-calendar-week"></i>
+                        </span>
+                        <span class="icon-badge">4</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="code-class">
+                  <pre><code class="language-markup">&lt;div>
 &lt;div class="badge-on-icon">
 &lt;i style="color: black; font-size: xx-large" ; class="fa fa-globe">&lt;/i>
 &lt;span class="icon-badge">2&lt;/span>
@@ -262,6 +253,9 @@ style="height: 120px; width: 120px"
 &lt;span class="icon-badge">4&lt;/span>
 &lt;/div>
 &lt;/div></code></pre>
+               </div>
+               <br>
+               <div>
                   </div>
                   <br>
                   <!-- buttons -->
@@ -269,18 +263,13 @@ style="height: 120px; width: 120px"
                   <hr>
                   <br>
                   <div>
-                     <button class="btn-green-pill">green-button</button>
-                     <button class="btn-red-pill">red-button</button>
                      <button class="btn-blue-pill">blue-button</button>
-                     <button class="btn-orange-pill">orange-button</button>
+                     
                      <a class="btn-gray-pill roundit" href="https://">gray-button</a>
                   </div>
                   <br>
                   <div class="code-class">
-                     <pre><code class="language-markup">&lt;button class="btn-green-pill">green-button&lt;/button>
-&lt;button class="btn-red-pill">red-button&lt;/button>
-&lt;button class="btn-blue-pill">blue-button&lt;/button>
-&lt;button class="btn-orange-pill">orange-button&lt;/button>
+                     <pre><code class="language-markup">&lt;button class="btn-blue-pill">blue-button&lt;/button>
 &lt;a class="btn-gray-pill roundit" href="https://">gray-button&lt;/a></code></pre>
                   </div>
                   <br>
@@ -392,12 +381,10 @@ src="https://via.placeholder.com/150"
 alt=""/>
 &lt;/div>
 &lt;div class="product-details">
-&lt;span class="product-catagory">Home Mobiles & Accessories&lt;/span>
-&lt;h4>&lt;a href="">APPLE iPhone 11 (White, 64 GB)&lt;/a>&lt;/h4>
+&lt;span class="product-catagory">product catagory&lt;/span>
+&lt;h4>&lt;a href="">product name&lt;/a>&lt;/h4>
 &lt;p>
-The new iPhone 12 and iPhone 12 Pro. Buy now. Water resistant.
-Retina display. Wide camera. Privacy built in. Services: No-contact
-free delivery, EMI available, Shop with Specialists.
+product description here
 &lt;/p>
 &lt;div class="product-bottom-details">
 &lt;div class="product-price">
@@ -468,12 +455,11 @@ free delivery, EMI available, Shop with Specialists.
 &lt;div class="row">
 &lt;div class="card">
 &lt;div class="card-header">
-&lt;h1>React&lt;/h1>
+&lt;h1>text&lt;/h1>
 &lt;/div>
 &lt;div class="card-body">
 &lt;p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+Your para here lorem...
 &lt;/p>
 &lt;a href="#" class="btn">Read more&lt;/a>
 &lt;/div>
@@ -531,9 +517,7 @@ alt="Nature"class="round-image"/>
 &lt;label class="basic-input-label">username : &lt;/label>
 &lt;input class="basic-input-box" type="text" placeholder="enter username" />
 &lt;/div>
-&lt;br />
-&lt;br />
-&lt;br />
+
 &lt;div class="error-input">
 &lt;label class="error-input-label">username : &lt;/label>
 &lt;input class="error-input-box" type="text" placeholder="enter username" />
@@ -609,46 +593,10 @@ alt="Nature"class="round-image"/>
                            </li>
                         </ul>
                      </div>
-                     <br /><br /><br />
-                     <!-- normal-list-->
-                     <h5>normal list</h5>
-                     <div class="normal-list normal-list-wrap">
-                        <ul>
-                           <li>item&nbsp;1</li>
-                           <li>item&nbsp;2</li>
-                           <li>item&nbsp;3</li>
-                           <li>item&nbsp;4</li>
-                           <li>item&nbsp;5</li>
-                           <li>item&nbsp;6</li>
-                        </ul>
-                        <ul class="square-bullet">
-                           <li>item&nbsp;1</li>
-                           <li>item&nbsp;2</li>
-                           <li>item&nbsp;3</li>
-                           <li>item&nbsp;4</li>
-                           <li>item&nbsp;5</li>
-                           <li>item&nbsp;6</li>
-                        </ul>
-                        <ul class="lower-alpha-bullet">
-                           <li>item&nbsp;1</li>
-                           <li>item&nbsp;2</li>
-                           <li>item&nbsp;3</li>
-                           <li>item&nbsp;4</li>
-                           <li>item&nbsp;5</li>
-                           <li>item&nbsp;6</li>
-                        </ul>
-                        <ul class="upper-roman-bullet">
-                           <li>item&nbsp;1</li>
-                           <li>item&nbsp;2</li>
-                           <li>item&nbsp;3</li>
-                           <li>item&nbsp;4</li>
-                           <li>item&nbsp;5</li>
-                           <li>item&nbsp;6</li>
-                        </ul>
-                     </div>
+                     <br />
                   </div>
                   <br>
-                  <div style="font-size: 1.5rem;">
+                  <div class="code-class">
                      <pre>
 <code class="language-markup">&lt;div class="lists-stacked">
 &lt;ul class="stacked-list-container">
@@ -715,43 +663,89 @@ alt="https://via.placeholder.com/150"
 &lt;/ul>
 &lt;/div>
 &lt;br />&lt;br />&lt;br />
-<!-- normal-list-->
-&lt;div class="normal-list normal-list-wrap">
-&lt;ul>
-&lt;li>item&nbsp;1&lt;/li>
-&lt;li>item&nbsp;2&lt;/li>
-&lt;li>item&nbsp;3&lt;/li>
-&lt;li>item&nbsp;4&lt;/li>
-&lt;li>item&nbsp;5&lt;/li>
-&lt;li>item&nbsp;6&lt;/li>
-&lt;/ul>
-&lt;ul class="square-bullet">
-&lt;li>item&nbsp;1&lt;/li>
-&lt;li>item&nbsp;2&lt;/li>
-&lt;li>item&nbsp;3&lt;/li>
-&lt;li>item&nbsp;4&lt;/li>
-&lt;li>item&nbsp;5&lt;/li>
-&lt;li>item&nbsp;6&lt;/li>
-&lt;/ul>
-&lt;ul class="lower-alpha-bullet">
-&lt;li>item&nbsp;1&lt;/li>
-&lt;li>item&nbsp;2&lt;/li>
-&lt;li>item&nbsp;3&lt;/li>
-&lt;li>item&nbsp;4&lt;/li>
-&lt;li>item&nbsp;5&lt;/li>
-&lt;li>item&nbsp;6&lt;/li>
-&lt;/ul>
-&lt;ul class="upper-roman-bullet">
-&lt;li>item&nbsp;1&lt;/li>
-&lt;li>item&nbsp;2&lt;/li>
-&lt;li>item&nbsp;3&lt;/li>
-&lt;li>item&nbsp;4&lt;/li>
-&lt;li>item&nbsp;5&lt;/li>
-&lt;li>item&nbsp;6&lt;/li>
-&lt;/ul>
-&lt;/div>
 </code></pre>
                   </div>
+
+                                       <h5>normal list</h5>
+
+
+
+<ul>
+   <li>item&nbsp;1</li>
+   <li>item&nbsp;2</li>
+   <li>item&nbsp;3</li>
+   <li>item&nbsp;4</li>
+   <li>item&nbsp;5</li>
+   <li>item&nbsp;6</li>
+</ul>
+<div class="code-class">
+<pre> <code class="language-markup">&lt;ul class="square-bullet">
+&lt;li>item&nbsp;1&lt;/li>
+&lt;li>item&nbsp;2&lt;/li>
+&lt;li>item&nbsp;3&lt;/li>
+&lt;li>item&nbsp;4&lt;/li>
+&lt;li>item&nbsp;5&lt;/li>
+&lt;li>item&nbsp;6&lt;/li>
+&lt;/ul>
+</code></pre>
+</div>
+<ul class="square-bullet">
+   <li>item&nbsp;1</li>
+   <li>item&nbsp;2</li>
+   <li>item&nbsp;3</li>
+   <li>item&nbsp;4</li>
+   <li>item&nbsp;5</li>
+   <li>item&nbsp;6</li>
+</ul>
+<div class="code-class">
+<pre> <code class="language-markup">&lt;ul class="square-bullet">
+&lt;li>item&nbsp;1&lt;/li>
+&lt;li>item&nbsp;2&lt;/li>
+&lt;li>item&nbsp;3&lt;/li>
+&lt;li>item&nbsp;4&lt;/li>
+&lt;li>item&nbsp;5&lt;/li>
+&lt;li>item&nbsp;6&lt;/li>
+&lt;/ul>
+</code></pre>
+</div>
+<ul class="lower-alpha-bullet">
+   <li>item&nbsp;1</li>
+   <li>item&nbsp;2</li>
+   <li>item&nbsp;3</li>
+   <li>item&nbsp;4</li>
+   <li>item&nbsp;5</li>
+   <li>item&nbsp;6</li>
+</ul>
+<div class="code-class">
+<pre> <code class="language-markup">&lt;ul class="lower-alpha-bullet">
+&lt;li>item&nbsp;1&lt;/li>
+&lt;li>item&nbsp;2&lt;/li>
+&lt;li>item&nbsp;3&lt;/li>
+&lt;li>item&nbsp;4&lt;/li>
+&lt;li>item&nbsp;5&lt;/li>
+&lt;li>item&nbsp;6&lt;/li>
+&lt;/ul>
+</code></pre>
+</div>
+<ul class="upper-roman-bullet">
+   <li>item&nbsp;1</li>
+   <li>item&nbsp;2</li>
+   <li>item&nbsp;3</li>
+   <li>item&nbsp;4</li>
+   <li>item&nbsp;5</li>
+   <li>item&nbsp;6</li>
+</ul>
+<div class="code-class">
+<pre> <code class="language-markup">&lt;ul class="upper-roman-bullet">
+&lt;li>item&nbsp;1&lt;/li>
+&lt;li>item&nbsp;2&lt;/li>
+&lt;li>item&nbsp;3&lt;/li>
+&lt;li>item&nbsp;4&lt;/li>
+&lt;li>item&nbsp;5&lt;/li>
+&lt;li>item&nbsp;6&lt;/li>
+&lt;/ul>
+</code></pre>
+</div>
                   <br>
                   <h4 id="navigation" class="doc-text">Navbar</h4>
                   <hr>
