@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel=icon
+    href=https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/droplet_1f4a7.png>
+
+    <link rel="stylesheet" href="droplet.css" />
+    <link rel="stylesheet" href="document.css" />
+    <link href="prism.css" rel="stylesheet" />
+    <title>droplet-ui</title>
+  </head>
+  <body>
+    <script src="prism.js"></script>
+    <!-- <script src="prism.js" data-manual></script> -->
+    <div>
+      <nav class="doc-navbar">
+        <h1 class="doc-ui-name">droplet-ui</h1>
+        <ul class="doc-nav-links">
+          <!-- <li><a href="#">Home</a></li> -->
+          <!-- <li><a href="#">About</a></li> -->
+          <li><span>version 0.00</span></li>
+          <li>
+            <a href="https://github.com/yogeshpendse/droplet/tree/development"
+              >GitHub</a
+            >
+          </li>
+          <!-- <li><a href="#">Contact Us</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <h1 style="text-align: center">Documentation</h1>
+      <div class="doc-wrapper">
+        <div class="doc-sidebar">
+          <div class="sidebar-content sidebar-content-wrapper">
+            <!-- <ul>
+               <li><a href="#">1 dgfg</a></li>
+               <li><a href="#">2 dgfg</a></li>
+               <li><a href="#">3 dgfg</a></li>
+               <li><a href="#">4 dgfg</a></li>
+               <li><a href="#">5 dgfg</a></li>
+               <li><a href="#">6 dgfg</a></li>
+               </ul> -->
+            <!-- sidebar-content sidebar-link-wrapper -->
+            <div class="sidebar-parent">
+              <div class="sidebar-link-wrapper">
+                <a href="#avatar">Avatar</a>
+                <a href="#alert">Alert</a>
+                <a href="#badge">Badge</a>
+                <a href="#button">Button</a>
+                <a href="#card">Card</a>
+                <a href="#image">Image</a>
+                <a href="#input">Input</a>
+                <!-- Lists -->
+                <a href="#lists">Lists</a>
+                <!-- Navigation -->
+                <a href="#navigation">Navbar</a>
+                <!-- Modal  -->
+                <a href="#lists">Lists</a>
+                <!-- Rating (for ecommerce) -->
+                <a href="#modal">Modal</a>
+                <!-- Simplified Grid -->
+                <a href="#grid">Grids</a>
+                <!-- Text Utilities -->
+                <a href="#textutilities">Text Utilities</a>
+                <!-- Toast/Notify/Snackbar  -->
+                <a href="#snackbar">Toast</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="doc-content">
+          <div class="doc-flex">
+            <div class="doc-component">
+              <!-- cdn links -->
+              <h4 class="doc-text">CDN links</h4>
+              <hr />
+              <br />
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520import%2520CSS%2520--%253E%250A%253Clink%2520href%253D%2522https%253A%252F%252Fdroplet-ui.netlify.app%252Fdroplet.css%2522%2520rel%253D%2522stylesheet%2522%253E%250A%253C%21--%2520import%2520JavaScript%2520--%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Fdroplet-ui.netlify.app%252Fdroplet.js%2522%253E%253C%252Fscript%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+              <br />
+              <!-- Avatar -->
+              <h4 id="avatar" class="doc-text">Avatar</h4>
+              <hr />
+              <br />
+              <div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    gap: 40px;
+                  "
+                >
+                  <img
+                    class="avatar-small"
+                    src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+                    alt=""
+                  />
+                  <img
+                    class="avatar-medium"
+                    src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+                    alt=""
+                  />
+                  <img
+                    class="avatar-large"
+                    src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+                    alt=""
+                  />
+                  <img
+                    class="avatar-xlarge"
+                    src="https://i.pinimg.com/originals/3d/18/11/3d18110bf082552259fbe5432cc391db.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <br />
+              <div class="code-class">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar-small%2522%2520src%253D%2522https%253A%252F%252F%2522%2520alt%253D%2522%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-medium%2522%2520src%253D%2522https%253A%252F%252F%2522%2520alt%253D%2522%2522%252F%253E%250A%253Cimg%2520class%253D%2522avatar-large%2522%2520src%253D%2522https%253A%252F%252F%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar-xlarge%2522%2520src%253D%2522https%253A%252F%252F%2522%2520alt%253D%2522%2522%252F%253E"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+              <br />
+              <!-- Alert -->
+              <h4 id="alert" class="doc-text">Alert</h4>
+              <hr />
+              <br />
+              <div class="alert-red">
+                Your text here
+                <span class="closebtn">&times;</span>
+              </div>
+              <br />
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522alert-red%2522%253E%250AYour%2520text%2520here%253Cspan%2520class%253D%2522closebtn%2522%253E%25C3%2597%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <br />
+              <!-- badges -->
+              <h4 id="badge" class="doc-text">Badge</h4>
+              <hr />
+              <div style="display: flex; flex-wrap: wrap; gap: 30px">
+                <p>Updates <span class="red-badge-circle">6</span></p>
+                <p>Likes <span class="red-badge">new</span></p>
+                <p>Updates <span class="blue-badge-circle">5</span></p>
+                <p>Likes <span class="blue-badge">new</span></p>
+              </div>
+              <br />
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%253Cp%253EUpdates%2520%253Cspan%2520class%253D%2522red-badge-circle%2522%253E6%253C%252Fspan%253E%253C%252Fp%253E%250A%253Cp%253ELikes%2520%253Cspan%2520class%253D%2522red-badge%2522%253Enew%253C%252Fspan%253E%253C%252Fp%253E%250A%253Cp%253EUpdates%2520%253Cspan%2520class%253D%2522blue-badge-circle%2522%253E5%253C%252Fspan%253E%253C%252Fp%253E%250A%253Cp%253ELikes%2520%253Cspan%2520class%253D%2522blue-badge%2522%253Enew%253C%252Fspan%253E%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522alert-red%2522%253E%250AYour%2520text%2520here%253Cspan%2520class%253D%2522closebtn%2522%253E%25C3%2597%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <div>
+                <div class="badge-on-avatars">
+                  <div class="badge-avatar">
+                    <svg role="none" style="height: 120px; width: 120px">
+                      <mask id="circle">
+                        <circle cx="60" cy="60" fill="white" r="60"></circle>
+                        <circle cx="102" cy="102" fill="black" r="15"></circle>
+                      </mask>
+                      <g mask="url(#circle)">
+                        <image
+                          x="0"
+                          y="0"
+                          height="100%"
+                          preserveAspectRatio="xMidYMid slice"
+                          width="100%"
+                          xlink:href="https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg"
+                          style="height: 120px; width: 120px"
+                        ></image>
+                        <circle class="border" cx="60" cy="60" r="60"></circle>
+                      </g>
+                    </svg>
+                    <div class="badge"></div>
+                  </div>
+                </div>
+              </div>
+
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522badge-on-avatars%2522%253E%250A%253Cdiv%2520class%253D%2522badge-avatar%2522%253E%250A%253Csvg%2520role%253D%2522none%2522%2520style%253D%2522height%253A%2520120px%253B%2520width%253A%2520120px%2522%253E%250A%253Cmask%2520id%253D%2522circle%2522%253E%250A%253Ccircle%2520cx%253D%252260%2522%2520cy%253D%252260%2522%2520fill%253D%2522white%2522%2520r%253D%252260%2522%253E%253C%252Fcircle%253E%250A%253Ccircle%2520cx%253D%2522102%2522%2520cy%253D%2522102%2522%2520fill%253D%2522black%2522%2520r%253D%252215%2522%253E%253C%252Fcircle%253E%250A%253C%252Fmask%253E%250A%253Cg%2520mask%253D%2522url%28%2523circle%29%2522%253E%250A%253Cimage%250Ax%253D%25220%2522%250Ay%253D%25220%2522%250Aheight%253D%2522100%2525%2522%250ApreserveAspectRatio%253D%2522xMidYMid%2520slice%2522%250Awidth%253D%2522100%2525%2522%250Axlink%253Ahref%253D%2522https%253A%252F%252Fexample.com%252Fsfiuj%2522%250Astyle%253D%2522height%253A%2520120px%253B%2520width%253A%2520120px%2522%250A%253E%253C%252Fimage%253E%250A%253Ccircle%2520class%253D%2522border%2522%2520cx%253D%252260%2522%2520cy%253D%252260%2522%2520r%253D%252260%2522%253E%253C%252Fcircle%253E%250A%253C%252Fg%253E%250A%253C%252Fsvg%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <div>
+                <div>
+                  <div class="badge-on-icon">
+                    <i
+                      style="color: black; font-size: xx-large"
+                      ;
+                      class="fa fa-globe"
+                    ></i>
+                    <span class="icon-badge">2</span>
+                  </div>
+                  <div class="badge-on-icon">
+                    <span style="color: black; font-size: xx-large" ;>
+                      <i class="fas fa-calendar-week"></i>
+                    </span>
+                    <span class="icon-badge">4</span>
+                  </div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Cdiv%2520class%253D%2522badge-on-icon%2522%253E%250A%253Ci%2520style%253D%2522color%253A%2520black%253B%2520font-size%253A%2520xx-large%2522%2520%253B%2520class%253D%2522fa%2520fa-globe%2522%253E%253C%252Fi%253E%250A%253Cspan%2520class%253D%2522icon-badge%2522%253E2%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-on-icon%2522%253E%250A%253Cspan%2520style%253D%2522color%253A%2520black%253B%2520font-size%253A%2520xx-large%2522%2520%253B%253E%250A%253Ci%2520class%253D%2522fas%2520fa-calendar-week%2522%253E%253C%252Fi%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522icon-badge%2522%253E4%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <br />
+              <div></div>
+              <br />
+              <!-- buttons -->
+              <h4 id="button" class="doc-text">Button</h4>
+              <hr />
+              <br />
+              <div>
+                <button class="btn-blue-pill">blue-button</button>
+
+                <a class="btn-gray-pill roundit" href="https://">gray-button</a>
+              </div>
+              <br />
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-blue-pill%2522%253Eblue-button%253C%252Fbutton%253E%250A%253Ca%2520class%253D%2522btn-gray-pill%2520roundit%2522%2520href%253D%2522https%253A%252F%252F%2522%253Egray-button%253C%252Fa%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+              <br />
+              <h4 id="card" class="doc-text">Card</h4>
+              <hr />
+              <br />
+              <div>
+                <h5>ecommerce cards</h5>
+                <div class="cardcontainer">
+                  <div class="product-card">
+                    <div class="product-badge">Hot</div>
+                    <div class="product-tumb">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/832/832/kgiaykw0/mobile/3/x/e/apple-iphone-11-mhdc3hn-a-original-imafwqepx5yxwctc.jpeg?q=70"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-details">
+                      <span class="product-catagory"
+                        >Home Mobiles & Accessories</span
+                      >
+                      <h4><a href="">APPLE iPhone 11 (White, 64 GB)</a></h4>
+                      <p>
+                        The new iPhone 12 and iPhone 12 Pro. Buy now. Water
+                        resistant. Retina display. Wide camera. Privacy built
+                        in. Services: No-contact free delivery, EMI available,
+                        Shop with Specialists.
+                      </p>
+                      <div class="product-bottom-details">
+                        <div class="product-price">
+                          <small class="unhilighted-color">&#8377;54,900</small
+                          >&#8377;49,999
+                        </div>
+                        <div class="product-links">
+                          <button class="product-whishlist-heart">
+                            <i class="fa fa-heart"></i>
+                          </button>
+                          <button><i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-badge">Hot</div>
+                    <div class="product-tumb">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/832/832/kgiaykw0/mobile/3/x/e/apple-iphone-11-mhdc3hn-a-original-imafwqepx5yxwctc.jpeg?q=70"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-details">
+                      <span class="product-catagory"
+                        >Home Mobiles & Accessories</span
+                      >
+                      <h4><a href="">APPLE iPhone 11 (White, 64 GB)</a></h4>
+                      <p>
+                        The new iPhone 12 and iPhone 12 Pro. Buy now. Water
+                        resistant. Retina display. Wide camera. Privacy built
+                        in. Services: No-contact free delivery, EMI available,
+                        Shop with Specialists.
+                      </p>
+                      <div class="product-bottom-details">
+                        <div class="product-price">
+                          <small class="unhilighted-color">&#8377;54,900</small
+                          >&#8377;49,999
+                        </div>
+                        <div class="product-links">
+                          <button class="product-whishlist-heart">
+                            <i class="fa fa-heart"></i>
+                          </button>
+                          <button><i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-card">
+                    <div class="product-badge">Hot</div>
+                    <div class="product-tumb">
+                      <img
+                        src="https://rukminim1.flixcart.com/image/832/832/kgiaykw0/mobile/3/x/e/apple-iphone-11-mhdc3hn-a-original-imafwqepx5yxwctc.jpeg?q=70"
+                        alt=""
+                      />
+                    </div>
+                    <div class="product-details">
+                      <span class="product-catagory"
+                        >Home Mobiles & Accessories</span
+                      >
+                      <h4><a href="">APPLE iPhone 11 (White, 64 GB)</a></h4>
+                      <p>
+                        The new iPhone 12 and iPhone 12 Pro. Buy now. Water
+                        resistant. Retina display. Wide camera. Privacy built
+                        in. Services: No-contact free delivery, EMI available,
+                        Shop with Specialists.
+                      </p>
+                      <div class="product-bottom-details">
+                        <div class="product-price">
+                          <small class="unhilighted-color">&#8377;54,900</small
+                          >&#8377;49,999
+                        </div>
+                        <div class="product-links">
+                          <button class="product-whishlist-heart">
+                            <i class="fa fa-heart"></i>
+                          </button>
+                          <button><i class="fa fa-shopping-cart"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%253Cdiv%2520class%253D%2522product-badge%2522%253EHot%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522product-tumb%2522%253E%250A%253Cimg%250Asrc%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250Aalt%253D%2522%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522product-details%2522%253E%250A%253Cspan%2520class%253D%2522product-catagory%2522%253Eproduct%2520catagory%253C%252Fspan%253E%250A%253Ch4%253E%253Ca%2520href%253D%2522%2522%253Eproduct%2520name%253C%252Fa%253E%253C%252Fh4%253E%250A%253Cp%253E%250Aproduct%2520description%2520here%250A%253C%252Fp%253E%250A%253Cdiv%2520class%253D%2522product-bottom-details%2522%253E%250A%253Cdiv%2520class%253D%2522product-price%2522%253E%250A%253Csmall%2520class%253D%2522unhilighted-color%2522%253E%25E2%2582%25B954%252C900%253C%252Fsmall%250A%253E%25E2%2582%25B949%252C999%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522product-links%2522%253E%250A%253Cbutton%2520class%253D%2522product-whishlist-heart%2522%253E%250A%253Ci%2520class%253D%2522fa%2520fa-heart%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%253E%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <br />
+              <div>
+                <h5>basic text cards</h5>
+                <div class="container">
+                  <div class="heading"></div>
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-header">
+                        <h1>React</h1>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Quasi neque molestiae eius explicabo mollitia
+                          tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h1>React</h1>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Quasi neque molestiae eius explicabo mollitia
+                          tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h1>React</h1>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Quasi neque molestiae eius explicabo mollitia
+                          tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%253Cdiv%2520class%253D%2522heading%2522%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522row%2522%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%253Ch1%253Etext%253C%252Fh1%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%253Cp%253E%250AYour%2520para%2520here%2520lorem...%250A%253C%252Fp%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2522%253ERead%2520more%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+              <h4 id="image" class="doc-text">Image</h4>
+              <hr />
+              <br />
+              <div>
+                <img
+                  src="https://www.w3schools.com/howto/img_nature_wide.jpg"
+                  alt="Nature"
+                  class="responsive-img"
+                />
+                <img
+                  src="https://scontent-bom1-2.cdninstagram.com/v/t51.2885-15/e35/162981082_2845568952364693_9198048295626431007_n.jpg?tp=1&_nc_ht=scontent-bom1-2.cdninstagram.com&_nc_cat=1&_nc_ohc=gaC9NvHV93MAX-j3SOW&ccb=7-4&oh=898852d8333c5ebecf95482fe8dd2106&oe=60863DD7&_nc_sid=86f79a"
+                  alt="Nature"
+                  class="round-image"
+                />
+              </div>
+              <br />
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252F%2522%2520%250A%2520%2520%2520%2520%2520alt%253D%2522Nature%2522class%253D%2522responsive-img%2522%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252F%2522%250A%2520%2520%2520%2520%2520alt%253D%2522Nature%2522%2520class%253D%2522round-image%2522%252F%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+              <br />
+              <h4 id="input" class="doc-text">Input</h4>
+              <hr />
+              <br />
+              <div>
+                <div class="basic-input">
+                  <label>username : </label>
+                  <input
+                    class="basic-input-box"
+                    type="text"
+                    placeholder="enter username"
+                  />
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="error-input">
+                  <label class="error-input-label">username : </label>
+                  <input
+                    class="error-input-box"
+                    type="text"
+                    placeholder="enter username"
+                  />
+                </div>
+              </div>
+              <br />
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522basic-input%2522%253E%250A%253Clabel%2520class%253D%2522basic-input-label%2522%253Eusername%2520%253A%2520%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522basic-input-box%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520username%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522error-input%2522%253E%250A%253Clabel%2520class%253D%2522error-input-label%2522%253Eusername%2520%253A%2520%253C%252Flabel%253E%250A%253Cinput%2520class%253D%2522error-input-box%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520username%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+
+              <br />
+              <h4 id="lists" class="doc-text">Lists</h4>
+              <hr />
+              <br />
+              <div>
+                <h5>stacked list</h5>
+                <div class="lists-stacked">
+                  <ul class="stacked-list-container">
+                    <li>
+                      <div class="list-card">
+                        <div class="person-img">
+                          <img
+                            class="person-image"
+                            src="https://via.placeholder.com/150"
+                            alt="https://via.placeholder.com/150"
+                          />
+                        </div>
+                        <div class="person-details">
+                          <label class="person-name">Random Name</label>
+                          <label class="person-mail">random@mail.com</label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list-card">
+                        <div class="person-img">
+                          <img
+                            class="person-image"
+                            src="https://via.placeholder.com/150"
+                            alt="https://via.placeholder.com/150"
+                          />
+                        </div>
+                        <div class="person-details">
+                          <label class="person-name">Random Name</label>
+                          <label class="person-mail">random@mail.com</label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list-card">
+                        <div class="person-img">
+                          <img
+                            class="person-image"
+                            src="https://via.placeholder.com/150"
+                            alt="https://via.placeholder.com/150"
+                          />
+                        </div>
+                        <div class="person-details">
+                          <label class="person-name">Random Name</label>
+                          <label class="person-mail">random@mail.com</label>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="list-card">
+                        <div class="person-img">
+                          <img
+                            class="person-image"
+                            src="https://via.placeholder.com/150"
+                            alt="https://via.placeholder.com/150"
+                          />
+                        </div>
+                        <div class="person-details">
+                          <label class="person-name">Random Name</label>
+                          <label class="person-mail">random@mail.com</label>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <br />
+              </div>
+              <br />
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522lists-stacked%2522%253E%250A%253Cul%2520class%253D%2522stacked-list-container%2522%253E%250A%253Cli%253E%250A%253Cdiv%2520class%253D%2522list-card%2522%253E%250A%253Cdiv%2520class%253D%2522person-img%2522%253E%250A%253Cimg%250Aclass%253D%2522person-image%2522%250Asrc%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250Aalt%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522person-details%2522%253E%250A%253Clabel%2520class%253D%2522person-name%2522%253ERandom%2520Name%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522person-mail%2522%253Erandom%2540mail.com%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fli%253E%250A%253Cli%253E%250A%253Cdiv%2520class%253D%2522list-card%2522%253E%250A%253Cdiv%2520class%253D%2522person-img%2522%253E%250A%253Cimg%250Aclass%253D%2522person-image%2522%250Asrc%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250Aalt%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522person-details%2522%253E%250A%253Clabel%2520class%253D%2522person-name%2522%253ERandom%2520Name%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522person-mail%2522%253Erandom%2540mail.com%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fli%253E%250A%253Cli%253E%250A%253Cdiv%2520class%253D%2522list-card%2522%253E%250A%253Cdiv%2520class%253D%2522person-img%2522%253E%250A%253Cimg%250Aclass%253D%2522person-image%2522%250Asrc%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250Aalt%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522person-details%2522%253E%250A%253Clabel%2520class%253D%2522person-name%2522%253ERandom%2520Name%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522person-mail%2522%253Erandom%2540mail.com%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fli%253E%250A%253Cli%253E%250A%253Cdiv%2520class%253D%2522list-card%2522%253E%250A%253Cdiv%2520class%253D%2522person-img%2522%253E%250A%253Cimg%250Aclass%253D%2522person-image%2522%250Asrc%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250Aalt%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%250A%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522person-details%2522%253E%250A%253Clabel%2520class%253D%2522person-name%2522%253ERandom%2520Name%253C%252Flabel%253E%250A%253Clabel%2520class%253D%2522person-mail%2522%253Erandom%2540mail.com%253C%252Flabel%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cbr%2520%252F%253E%253Cbr%2520%252F%253E%253Cbr%2520%252F%253E%250A"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <h5>normal list</h5>
+
+            <ul>
+              <li>item&nbsp;1</li>
+              <li>item&nbsp;2</li>
+              <li>item&nbsp;3</li>
+              <li>item&nbsp;4</li>
+              <li>item&nbsp;5</li>
+              <li>item&nbsp;6</li>
+            </ul>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%253E%250A%253Cli%253Eitem%25201%253C%252Fli%253E%250A%253Cli%253Eitem%25202%253C%252Fli%253E%250A%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253Cli%253Eitem%25204%253C%252Fli%253E%250A%253Cli%253Eitem%25205%253C%252Fli%253E%250A%253Cli%253Eitem%25206%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            </iframe>
+
+            <ul class="square-bullet">
+              <li>item&nbsp;1</li>
+              <li>item&nbsp;2</li>
+              <li>item&nbsp;3</li>
+              <li>item&nbsp;4</li>
+              <li>item&nbsp;5</li>
+              <li>item&nbsp;6</li>
+            </ul>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522square-bullet%2522%253E%250A%253Cli%253Eitem%25201%253C%252Fli%253E%250A%253Cli%253Eitem%25202%253C%252Fli%253E%250A%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253Cli%253Eitem%25204%253C%252Fli%253E%250A%253Cli%253Eitem%25205%253C%252Fli%253E%250A%253Cli%253Eitem%25206%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <ul class="lower-alpha-bullet">
+              <li>item&nbsp;1</li>
+              <li>item&nbsp;2</li>
+              <li>item&nbsp;3</li>
+              <li>item&nbsp;4</li>
+              <li>item&nbsp;5</li>
+              <li>item&nbsp;6</li>
+            </ul>
+            
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522lower-alpha-bullet%2522%253E%250A%253Cli%253Eitem%25201%253C%252Fli%253E%250A%253Cli%253Eitem%25202%253C%252Fli%253E%250A%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253Cli%253Eitem%25204%253C%252Fli%253E%250A%253Cli%253Eitem%25205%253C%252Fli%253E%250A%253Cli%253Eitem%25206%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <ul class="upper-roman-bullet">
+              <li>item&nbsp;1</li>
+              <li>item&nbsp;2</li>
+              <li>item&nbsp;3</li>
+              <li>item&nbsp;4</li>
+              <li>item&nbsp;5</li>
+              <li>item&nbsp;6</li>
+            </ul>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522upper-roman-bullet%2522%253E%250A%253Cli%253Eitem%25201%253C%252Fli%253E%250A%253Cli%253Eitem%25202%253C%252Fli%253E%250A%253Cli%253Eitem%25203%253C%252Fli%253E%250A%253Cli%253Eitem%25204%253C%252Fli%253E%250A%253Cli%253Eitem%25205%253C%252Fli%253E%250A%253Cli%253Eitem%25206%253C%252Fli%253E%250A%253C%252Ful%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <br />
+            <h4 id="navigation" class="doc-text">Navbar</h4>
+            <hr />
+            <br />
+            <nav class="navbar-main">
+              <h1>LOGO</h1>
+              <ul>
+                <li><a data-text="Home" href="#">Home</a></li>
+                <li><a data-text="About" href="#">About</a></li>
+                <li><a data-text="Services" href="#">Services</a></li>
+                <li><a data-text="Contact Us" href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+            <br />
+         <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar-main%2522%253E%250A%253Ch1%253ELOGO%253C%252Fh1%253E%250A%253Cul%253E%250A%253Cli%253E%253Ca%2520data-text%253D%2522Home%2522%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%253Cli%253E%253Ca%2520data-text%253D%2522About%2522%2520href%253D%2522%2523%2522%253EAbout%253C%252Fa%253E%253C%252Fli%253E%250A%253Cli%253E%253Ca%2520data-text%253D%2522Services%2522%2520href%253D%2522%2523%2522%253EServices%253C%252Fa%253E%253C%252Fli%253E%250A%253Cli%253E%253Ca%2520data-text%253D%2522Contact%2520Us%2522%2520href%253D%2522%2523%2522%253EContact%2520Us%253C%252Fa%253E%253C%252Fli%253E%250A%253C%252Ful%253E%250A%253C%252Fnav%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+            <br />
+            <h4 id="modal" class="doc-text">Modal</h4>
+            <hr />
+            <br />
+            <div>
+              <!-- Trigger/Open The Modal -->
+              <button class="btn-red-pill modal-button" href="#myModal1">
+                Open Modal
+              </button>
+              <!-- The Modal -->
+              <div id="myModal1" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Modal Header</h2>
+                  </div>
+                  <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                  </div>
+                  <div class="modal-footer">
+                    <h3>Modal Footer</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-red-pill%2520modal-button%2522%2520href%253D%2522%2523myModal1%2522%253EOpen%2520Modal%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522myModal1%2522%2520class%253D%2522modal%2522%253E%250A%250A%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%253Cspan%2520class%253D%2522close%2522%253E%25C3%2597%253C%252Fspan%253E%250A%253Ch2%253EModal%2520Header%253C%252Fh2%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%253Cp%253ESome%2520text%2520in%2520the%2520Modal%2520Body%253C%252Fp%253E%250A%253Cp%253ESome%2520other%2520text...%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%253Ch3%253EModal%2520Footer%253C%252Fh3%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+            <br />
+            <h4 id="grid" class="doc-text">Grid</h4>
+            <hr />
+            <br />
+            <div>
+              <h1 style="text-align: center">Two items in a grid</h1>
+              <div class="wrapper2">
+                <div class="g1-color2">one</div>
+                <div class="g2-color2">Two</div>
+              </div>
+              <br />
+              <hr />
+              <h1 style="text-align: center">Three items in a grid</h1>
+              <div class="wrapper3">
+                <div class="g1-color">one</div>
+                <div class="g2-color">Two</div>
+                <div class="g3-color">Three</div>
+              </div>
+            </div>
+            <br />
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Ch1%2520style%253D%2522text-align%253A%2520center%2522%253ETwo%2520items%2520in%2520a%2520grid%253C%252Fh1%253E%250A%253Cdiv%2520class%253D%2522wrapper2%2522%253E%250A%253Cdiv%2520class%253D%2522g1-color2%2522%253Eone%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522g2-color2%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbr%2520%252F%253E%250A%253Chr%2520%252F%253E%250A%253Ch1%2520style%253D%2522text-align%253A%2520center%2522%253EThree%2520items%2520in%2520a%2520grid%253C%252Fh1%253E%250A%253Cdiv%2520class%253D%2522wrapper3%2522%253E%250A%253Cdiv%2520class%253D%2522g1-color%2522%253Eone%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522g2-color%2522%253ETwo%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522g3-color%2522%253EThree%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <br />
+            <!-- <h4 id="toast" class="doc-text">Toast</h4> -->
+            <h4 id="snackbar" class="doc-text">Toast</h4>
+            <hr />
+            <br />
+            <div>
+              <button class="btn-blue-pill" onclick="showToast('Toast text')">
+                Show Toast
+              </button>
+              <div id="toast"></div>
+            </div>
+            <br />
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cbutton%2520onclick%253D%2522showToast%28%27Toast%2520text%27%29%2522%253EShow%2520Toast%253C%252Fbutton%253E%250A%253Cdiv%2520id%253D%2522toast%2522%253E%253C%252Fdiv%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <br />
+            <h4 id="textutilities" class="doc-text">Text Utilities</h4>
+            <hr />
+            <br />
+            <div>
+              <h1>Header 1</h1>
+              <h2>Header 2</h2>
+              <h3>Header 3</h3>
+              <h4>Header 4</h4>
+              <h5>Header 5</h5>
+              <h6>Header 6</h6>
+            </div>
+            <br />
+            
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeader%25201%253C%252Fh1%253E%250A%253Ch2%253EHeader%25202%253C%252Fh2%253E%250A%253Ch3%253EHeader%25203%253C%252Fh3%253E%250A%253Ch4%253EHeader%25204%253C%252Fh4%253E%250A%253Ch5%253EHeader%25205%253C%252Fh5%253E%250A%253Ch6%253EHeader%25206%253C%252Fh6%253E"
+  style="width: 100%; height: 100%; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="droplet.js"></script>
+  </body>
+</html>

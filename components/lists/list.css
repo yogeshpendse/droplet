@@ -1,0 +1,66 @@
+.stacked-list-container {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: center;  */
+  /* width: 100; */
+  margin-right: 30px;
+  margin-left: 30px;
+  list-style-type: none;
+}
+.list-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 350px; */
+  background-color: #6cb4ee;
+  height: 200px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  margin: 10px;
+}
+.stacked-list-container > li {
+  border-bottom: 1px solid gray;
+}
+.stacked-list-container li:last-child {
+  border-bottom: none;
+}
+.person-image {
+  border-radius: 50%;
+  height: 150px;
+}
+.person-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+  /* width: 100%; */
+}
+.person-name {
+  color: whitesmoke;
+}
+.person-mail {
+  color: whitesmoke;
+}
+.lists-stacked {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.square-bullet {
+  list-style-type: square;
+}
+.lower-alpha-bullet {
+  list-style-type: lower-alpha;
+}
+.upper-roman-bullet {
+  list-style-type: upper-roman;
+}
+.normal-list-wrap {
+  display: flex;
+  gap: 50px;
+}

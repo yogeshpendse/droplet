@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="badges.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Updates <span class="red-badge-circle">6</span></p>
+    <p>Likes <span class="red-badge">new</span></p>
+
+    <p>Updates <span class="blue-badge-circle">5</span></p>
+    <p>Likes <span class="blue-badge">new</span></p>
+
+    <p>Updates <span class="green-badge-circle">4</span></p>
+    <p>Likes <span class="green-badge">new</span></p>
+
+    <p>Updates <span class="violet-badge-circle">3</span></p>
+    <p>Likes <span class="violet-badge">new</span></p>
+
+    <div class="badge-on-avatars">
+      <div class="badge-avatar">
+        <svg role="none" style="height: 120px; width: 120px">
+          <mask id="circle">
+            <circle cx="60" cy="60" fill="white" r="60"></circle>
+            <circle cx="102" cy="102" fill="black" r="15"></circle>
+          </mask>
+          <g mask="url(#circle)">
+            <image
+              x="0"
+              y="0"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              xlink:href="https://www.cricbuzz.com/a/img/v1/152x152/i1/c170661/virat-kohli.jpg"
+              style="height: 120px; width: 120px"
+            ></image>
+            <circle class="border" cx="60" cy="60" r="60"></circle>
+          </g>
+        </svg>
+        <div class="badge"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="badge-on-icon">
+        <i style="color: black; font-size: xx-large" ; class="fa fa-globe"></i>
+        <span class="icon-badge">2</span>
+      </div>
+      <div class="badge-on-icon">
+        <span style="color: black; font-size: xx-large" ;>
+          <i class="fas fa-calendar-week"></i>
+        </span>
+        <span class="icon-badge">4</span>
+      </div>
+    </div>
+  </body>
+</html>

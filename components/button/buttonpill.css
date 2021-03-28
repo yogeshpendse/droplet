@@ -1,0 +1,103 @@
+.btn-green-pill {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+.btn-green-pill:hover {
+  background-color: darkgreen;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-red-pill {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+.btn-red-pill:hover {
+  background-color: #be0000;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-blue-pill {
+  background-color: #00bfff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+.btn-blue-pill:hover {
+  background-color: #0000ff;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-yellow-pill {
+  background-color: #ffe200;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.btn-yellow-pill:hover {
+  background-color: #938200;
+  color: white;
+}
+
+.btn-orange-pill {
+  background-color: orange;
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+.btn-orange-pill:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+
+.btn-gray-pill {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.btn-gray-pill:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
